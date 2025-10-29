@@ -42,6 +42,14 @@ Approximately 6-7 hours total:
 
 5. Is there anything special we need to know in order to run your code?
 
-- N/A
+BONUS FEATURE ADDED: Sentiment Analysis
+- Added sentiment.js file that analyzes positive/negative sentiment in user-written tweets
+- Updated descriptions.html to include sentiment column in table and load sentiment.js
+- Updated tweet.ts to include sentiment getter
+- Added interactive filter buttons on descriptions.html to filter tweets by sentiment (All/Positive/Neutral/Negative)
+- Filter buttons are added dynamically via JavaScript DOM manipulation
+- Sentiment is color-coded: green for positive, red for negative, gray for neutral
+
+To run the code:
 
 Note: The only HTML file modified was descriptions.html to add sentiment.js script tag/table column header.
